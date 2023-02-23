@@ -105,7 +105,7 @@ source "proxmox-iso" "debian-11" {
   cores    = var.cores
   sockets  = "1"
 
-  ssh_password = "packer"
+  ssh_password = "debian"
   ssh_username = "root"
 }
 
